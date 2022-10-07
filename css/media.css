@@ -1,0 +1,266 @@
+@media(max-width:1420px) {
+   .heroy {
+      padding: 28px 10px 0px 10px;
+   }
+
+   .heroy__left-title {
+      font-size: 43px;
+      line-height: 60px;
+   }
+
+   .contact {
+      padding: 130px 10px 128px;
+   }
+
+   .contact__wrapper {
+      justify-content: space-between;
+   }
+
+   .contact__block-map {
+      margin-right: auto;
+   }
+
+   .footer {
+      padding: 20px 10px;
+   }
+}
+
+@media(max-width:1200px) {
+   .heroy__left-title {
+      font-size: 40px;
+   }
+
+   .service__wrapper {
+      padding: 0 0px 0 0px;
+   }
+
+   .service__right-subtitle {
+      font-size: 16px;
+   }
+
+   .service__right-title {
+      font-size: 27px;
+      line-height: 40px;
+   }
+
+   .contact__block-form {
+      width: 37%;
+   }
+}
+
+@media(max-width:1100px) {
+   .heroy__left-title {
+      font-size: 35px;
+   }
+
+}
+
+@media(max-width:980px) {
+   .heroy__wrapper {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .heroy__left {
+      width: 100%;
+   }
+
+   .heroy__right {
+      width: 100%;
+      margin-top: 30px;
+   }
+
+   .service__wrapper {
+      flex-direction: column-reverse;
+      align-items: center;
+   }
+
+   .service__left {
+      width: 100%;
+      margin-top: 30px;
+   }
+
+   .service__right {
+      width: 100%;
+   }
+
+   .contact {
+      padding: 90px 10px 90px;
+   }
+
+   .contact__subtitle {
+      width: 100%;
+   }
+
+   .contact__wrapper {
+      flex-direction: column-reverse;
+      align-items: center;
+   }
+
+   .contact__block-map {
+      width: 100%;
+      height: 450px;
+      margin-top: 30px;
+   }
+
+   .contact__block-form {
+      width: 100%;
+   }
+}
+
+@media(max-width:868px) {
+   .mobile__menu {
+      display: block;
+   }
+
+   .nav {
+      position: absolute;
+      z-index: 3;
+      left: 0;
+      right: 0;
+      top: -100%;
+      height: 100%;
+      transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+   }
+
+   .nav.active {
+      top: 0;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      background: #fff;
+   }
+
+   .nav__menu {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 50px 0 30px 30px;
+   }
+
+   .nav__menu-list:not(:last-child) {
+      margin-right: 0px;
+      margin-bottom: 30px;
+   }
+
+   .header__btn {
+      margin-left: 30px;
+   }
+}
+
+@media(max-width:768px) {
+   .service {
+      padding: 61px 10px 61px;
+   }
+
+   .contact {
+      padding: 90px 10px 50px;
+  }
+}
+
+@media(max-width:590px) {
+
+   .heroy__left-subtitle {
+      font-size: 20px;
+      line-height: 31px;
+   }
+
+   .heroy__left-title {
+      font-size: 30px;
+      line-height: 40px;
+   }
+
+   .modal {
+      width: 395px;
+      height: 300px;
+   }
+
+   .footer__top {
+      flex-direction: column;
+   }
+
+   .footer__bottom {
+      flex-direction: column;
+  }
+
+  .footer__bottom-left {
+   margin-bottom: 10px;
+}
+
+   .footer__top-tetx {
+      width: 100%;
+   }
+
+
+}
+
+@media(max-width:450px) {
+
+   .heroy__left-subtitle,
+   .service__right-subtitle,
+   .heroy__left-title,
+   .service__right-title {
+      text-align: center;
+   }
+
+
+   .heroy__left-text {
+      font-size: 15px;
+      line-height: 25px;
+   }
+
+   .heroy__left-bottom {
+      flex-direction: column;
+   }
+
+   .heroy__left-item {
+      font-size: 18px;
+      line-height: 40px;
+   }
+
+   .heroy__btn-video {
+      width: 80%;
+      margin: 0 auto 20px;
+   }
+
+   .heroy__left-link {
+      width: 80%;
+      margin: 0 auto;
+   }
+
+   .service__right-link {
+      width: 80%;
+      margin: 39px auto 0 auto;
+      display: block;
+   }
+
+   .contact__subtitle {
+      font-size: 15px;
+      line-height: 25px;
+   }
+
+   .contact__block-form {
+      padding: 32px 10px 40px;
+   }
+
+   .contact__block-title {
+      font-size: 15px;
+   }
+
+   .modal {
+      width: 310px;
+      height: 270px;
+   }
+
+   .modal-btn-close {
+      right: -5px;
+   }
+
+   
+
+
+}
